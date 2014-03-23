@@ -1,0 +1,34 @@
+
+
+body > #header {
+	background: #753bbd;
+}
+body > #header .logo {
+	height: 80px;
+	width: auto;
+}
+
+
+
+
+#content {
+	min-height: 50em;
+}
+
+
+
+
+
+body > #footer {
+	background: #753bbd;
+	padding-top: 20em;
+}
+body > #footer #tc {
+	background: #330072;
+	text-align: center;
+}
+body > #footer #tc p {
+	color: #753bbd;
+	margin: 0px;
+	padding: 1.4em 0em;
+} 
