@@ -76,8 +76,21 @@ Pantone
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-shadow: none;
+	margin: 0px;
+	padding: 0px;
 }
-
+.carousel {
+	display: block;
+	height: 100% !important;
+	overflow: hidden !important;
+	position: relative;
+	width: 100% !important;
+}
+.carousel .slides,
+.carousel .slides li {
+	height: 100% !important;
+	width: 100% !important;
+}
 
 
 
