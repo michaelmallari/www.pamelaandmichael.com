@@ -14,6 +14,7 @@
 		<link rel="shortcut icon" href="/img/icon.png">
 		<meta name="description" content="">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Oswald:400,300,700|Lora:400,700|Lobster">
+		<link rel="stylesheet" href="/css/bootstrap-3.1.1.min.css">
 		<link rel="stylesheet" href="/css/flexslider-2.2.0.css">
 		<link rel="stylesheet" href="/css/style.css">
 <!--[if lte IE 9]>
@@ -63,56 +64,56 @@
 
 		<div class="carousel">
 			<ul class="slides">
-				<li style="background-image: url('/img/bg-welcome.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-welcome.jpg');">
 					<div class="container">
 						<h2>Welcome</h2>	
 					</div><!--/.container -->
 				</li>
 
 
-				<li style="background-image: url('/img/bg-about.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-about.jpg');">
 					<div class="container">
 						<h2>About Us</h2>	
 					</div><!--/.container -->
 				</li>
 
 
-				<li style="background-image: url('/img/bg-proposal.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-proposal.jpg');">
 					<div class="container">
 						<h2>The Proposal</h2>	
 					</div><!--/.container -->
 				</li>
 
 
-				<li style="background-image: url('/img/bg-ceremony.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-ceremony.jpg');">
 					<div class="container">
 						<h2>Our Ceremony</h2>
 					</div><!--/.container -->
 				</li>
 
 
-				<li style="background-image: url('/img/bg-reception.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-reception.jpg');">
 					<div class="container">
 						<h2>Our Reception</h2>
 					</div><!--/.container -->
 				</li>
 
 
-				<li style="background-image: url('/img/bg-honeymoon.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-honeymoon.jpg');">
 					<div class="container">
 						<h2>Our Honeymoon</h2>
 					</div><!--/.container -->
 				</li>
 
 
-				<li style="background-image: url('/img/bg-registries.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-registries.jpg');">
 					<div class="container">
 						<h2>Our Registries</h2>
 					</div><!--/.container -->
 				</li>
 
 
-				<li style="background-image: url('/img/bg-rsvp.jpg');">
+				<li class="slide" style="background-image: url('/img/bg-rsvp.jpg');">
 					<div class="container">
 						<h2>RSVP</h2>
 					</div><!--/.container -->
@@ -131,9 +132,26 @@
 
 		<script src="/js/angular-1.2.12.min.js"></script>
 		<script src="/js/jquery-1.11.0.min.js"></script>
+		<script src="/js/bootstrap-3.1.1.min.js"></script>
 		<script src="/js/jquery.flexslider-2.2.0.min.js"></script>
 		<script>
+			function ResizeHeight() {
+				var screenHeight = $('.carousel').height();
+
+
+				$('.slide').css({
+					'height' : screenHeight + 'px'
+				});
+			}
+
+
+
+
+
 			$(document).ready(function() {
+				ResizeHeight();
+
+
 				$('.carousel').flexslider({
 					animation: "slide",
 					animationLoop: true,
@@ -142,6 +160,14 @@
 					slideshowSpeed: 15000,
 					touch: true
 				});
+			});
+
+
+
+
+
+			$(window).resize(function() {
+				ResizeHeight();
 			});
 		</script>
 	</body>

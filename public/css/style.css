@@ -76,21 +76,28 @@ Pantone
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-shadow: none;
+}
+html,
+body {
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 }
+#nav {
+	display: none;
+}
 .carousel {
-	display: block;
 	height: 100% !important;
-	overflow: hidden !important;
-	position: relative;
-	width: 100% !important;
 }
-.carousel .slides,
-.carousel .slides li {
-	height: 100% !important;
-	width: 100% !important;
+.carousel .slides .slide {
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
 }
+.flex-control-nav {
+	display: none;
+}
+
 
 
 
@@ -192,7 +199,9 @@ Pantone
  * ----------------------------------------------------------------------------
  */
 @media (min-width: 992px) {
+	.carousel .slides li {
 
+	}
 }
 
 
