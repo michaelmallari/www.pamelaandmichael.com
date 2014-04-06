@@ -22,7 +22,30 @@
 
 
 /*
-Pantone
+Pantone Warm Gray 1 C	#d7d2cb
+Pantone Warm Gray 2 C	#cbc4bc
+Pantone Warm Gray 3 C	#bfb8af
+Pantone Warm Gray 4 C	#b6ada5
+Pantone Warm Gray 5 C	#aca39a
+Pantone Warm Gray 6 C	#a59c94
+Pantone Warm Gray 7 C	#968c83
+Pantone Warm Gray 8 C	#8c8279
+Pantone Warm Gray 9 C	#83786f
+Pantone Warm Gray 10 C	#796e65
+Pantone Warm Gray 11 C	#6e6259
+
+
+Pantone Cool Gray 1 C	#d9d9d6
+Pantone Cool Gray 2 C	#d0d0ce
+Pantone Cool Gray 3 C	#c8c9c7
+Pantone Cool Gray 4 C	#bbbcbc
+Pantone Cool Gray 5 C	#b1b3b3
+Pantone Cool Gray 6 C	#a7a8aa
+Pantone Cool Gray 7 C	#97999b
+Pantone Cool Gray 8 C	#888b8d
+Pantone Cool Gray 9 C	#75787b
+Pantone Cool Gray 10 C	#63666a
+Pantone Cool Gray 11 C	#53565a
 */
 
 
@@ -56,7 +79,7 @@ Pantone
  * ----------------------------------------------------------------------------
  */
 .some-pattern {
-	
+
 }
 
 
@@ -109,14 +132,10 @@ body > #header {
  * 5.0 Content
  * ----------------------------------------------------------------------------
  */
-#content {
-	display: none;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-}
+ #content {
+
+ }
 .carousel {
-	display: none;
 	height: 100% !important;
 }
 .carousel .slides .slide {
@@ -126,6 +145,30 @@ body > #header {
 }
 .flex-control-nav {
 	display: none;
+}
+#welcome {
+	background: #d7d2cb;
+}
+#about {
+	background: #cbc4bc;
+}
+#proposal {
+	background: #bfb8af;
+}
+#ceremony {
+	background: #b6ada5;
+}
+#reception {
+	background: #aca39a;
+}
+#honeymoon {
+	background: #a59c94;
+}
+#registries {
+	background: #968c83;
+}
+#rsvp {
+	background: #8c8279;
 }
 
 
