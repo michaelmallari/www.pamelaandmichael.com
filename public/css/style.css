@@ -186,30 +186,13 @@ h1 > #plus {
 .flex-control-nav {
 	display: none;
 }
-#welcome {
-	background: #d7d2cb;
-}
-#about {
-	background: #cbc4bc;
-}
-#proposal {
-	background: #bfb8af;
-}
-#ceremony {
-	background: #b6ada5;
-}
-#reception {
-	background: #aca39a;
-}
-#honeymoon {
-	background: #a59c94;
-}
-#registries {
-	background: #968c83;
-}
-#rsvp {
-	background: #8c8279;
-}
+.cell-1 { background: #d7d2cb; }
+.cell-2 { background: #cbc4bc; }
+.cell-3 { background: #bfb8af; }
+.cell-4 { background: #b6ada5; }
+.cell-5 { background: #aca39a; }
+.cell-6 { background: #a59c94; }
+.cell-7 { background: #968c83; }
 
 
 
