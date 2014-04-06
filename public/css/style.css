@@ -73,8 +73,6 @@ Pantone
  * ----------------------------------------------------------------------------
  */
 * {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
 	text-shadow: none;
 }
 html,
@@ -83,10 +81,15 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+#header {
+	border-top: solid 10px #f90;
+
+}
 #nav {
 	display: none;
 }
 .carousel {
+	display: none;
 	height: 100% !important;
 }
 .carousel .slides .slide {
@@ -99,7 +102,26 @@ body {
 }
 
 
-
+#footer {
+	bottom: 0;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+	z-index: 99;
+}
+#countdown {
+	background: url('/img/000000-75.png');
+	font-family: 'Averia Serif Libre', serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-transform: lowercase;
+	width: 100%;
+}
 
 
 
