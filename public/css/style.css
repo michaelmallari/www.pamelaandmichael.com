@@ -142,25 +142,24 @@ h1 > #plus {
 	color: #df1995;
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
-	text-shadow: 0px 1px 2px #d9d9d6;
 }
-#getting-hitched,
-#bk-date {
+#getting-hitched {
 	color: #7a9a01;
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 1.9em;
 	font-weight: 400;
 	letter-spacing: 0em;
 	margin: 0px;
-	text-shadow: 0px 1px 2px #d9d9d6;
+	text-shadow: 0px 1px 1px #53565a;
 	text-transform: none;
 }
+#bk-date,
 #bk-date #date {
 	color: #7a9a01;
-	font-family: 'Cedarville Cursive', cursive;
 	letter-spacing: 0.1em;
 	margin: 0px;
-	text-shadow: 0px 1px 2px #d9d9d6;
+	text-shadow: 0px 1px 1px #53565a;
+	text-transform: uppercase;
 }
 
 
@@ -225,7 +224,27 @@ h1 > #plus {
 .cell-6 { background: #a59c94; }
 .cell-7 { background: #968c83; }
 
+.cell {
+	background-size: auto 100%;
+	opacity: 0.8; filter:alpha(opacity=80);
+}
 
+
+#welcome #farm {
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+
+#welcome { background-image: url('/img/photos/img-8.jpg'); }
+
+#honeymoon .cell-1 { background-image: url('/img/photos/img-1.jpg'); }
+#honeymoon .cell-2 { background-image: url('/img/photos/img-5.jpg'); }
+#honeymoon .cell-3 { background-image: url('/img/photos/img-2.jpg'); }
+#honeymoon .cell-4 { background-image: url('/img/photos/img-3.jpg'); }
+#honeymoon .cell-5 { background-image: url('/img/photos/img-6.jpg'); }
+#honeymoon .cell-6 { background-image: url('/img/photos/img-7.jpg'); }
+#honeymoon .cell-7 { background-image: url('/img/photos/img-8.jpg'); }
 
 
 
