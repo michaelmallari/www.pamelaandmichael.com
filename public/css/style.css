@@ -189,12 +189,10 @@ h1 > #plus {
 	z-index: 98;
 }
 .flex-control-paging li {
-	margin: 1px;
+	margin: 4px;
 }
 .flex-control-paging li a {
-	-webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px;
-	height: 2px;
-	width: 60px;
+	background: #888b8d;
 }
 .flex-control-paging li a.flex-active,
 .flex-control-paging li a:hover {
