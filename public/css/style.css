@@ -2,8 +2,8 @@
  * Table of Contents:
  *
  * 1.0 - Reset
- * 2.0 - Repeatable patterns
- * 3.0 - Basic structure
+ * 2.0 - Basic structure
+ * 3.0 - Repeatable patterns
  * 4.0 - body > #header
  * 5.0 - #content
  * 6.0 - body > #footer
@@ -13,15 +13,11 @@
  */
 
 
-
-
-
-
-
-
-
-
 /*
+Pantone 381 C	#cedc00
+Pantone 225 C	#df1995
+
+
 Pantone Warm Gray 1 C	#d7d2cb
 Pantone Warm Gray 2 C	#cbc4bc
 Pantone Warm Gray 3 C	#bfb8af
@@ -75,11 +71,18 @@ Pantone Cool Gray 11 C	#53565a
 
 
 /**
- * 2.0 Repeatable patterns
+ * 2.0 Basic structure
  * ----------------------------------------------------------------------------
  */
-.some-pattern {
-
+html,
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+* {
+	color: #53565a;
+	font-family: 'Lato', Helvetica, sans-serif;
 }
 
 
@@ -92,18 +95,11 @@ Pantone Cool Gray 11 C	#53565a
 
 
 /**
- * 3.0 Basic structure
+ * 3.0 Repeatable patterns
  * ----------------------------------------------------------------------------
  */
-html,
-body {
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-}
-* {
-	color: #53565a;
-	font-family: 'Lato', Helvetica, sans-serif;
+.some-pattern {
+
 }
 
 
@@ -144,7 +140,7 @@ h1 > #plus {
 	font-weight: 300;
 }
 #getting-hitched {
-	color: #7a9a01;
+	color: #cedc00;
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 1.9em;
 	font-weight: 400;
@@ -155,7 +151,7 @@ h1 > #plus {
 }
 #bk-date,
 #bk-date #date {
-	color: #7a9a01;
+	color: #cedc00;
 	letter-spacing: 0.1em;
 	margin: 0px;
 	text-shadow: 0px 1px 1px #53565a;
