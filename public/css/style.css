@@ -80,6 +80,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+body {
+	background: url('/img/bg-fabric-1.jpg') no-repeat;
+}
 * {
 	color: #53565a;
 	font-family: 'Lato', Helvetica, sans-serif;
@@ -230,7 +233,7 @@ h1 > #plus {
 	width: 100%;
 }
 
-#welcome { background-image: url('/img/photos/img-8.jpg'); }
+#welcome { }
 
 #honeymoon .cell-1 { background-image: url('/img/photos/img-1.jpg'); }
 #honeymoon .cell-2 { background-image: url('/img/photos/img-5.jpg'); }
@@ -252,9 +255,9 @@ h1 > #plus {
  * ----------------------------------------------------------------------------
  */
 body > #footer {
+	background: url('/img/00263a-90.png');
 	bottom: 0;
 	color: #fff;
-	display: none;
 	margin: 0px;
 	padding: 0px;
 	position: absolute;
@@ -262,7 +265,6 @@ body > #footer {
 	z-index: 99;
 }
 #countdown {
-	background: url('/img/000000-75.png');
 	font-family: 'Averia Serif Libre', serif;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -270,7 +272,6 @@ body > #footer {
 	line-height: 60px;
 	text-align: center;
 	text-transform: lowercase;
-	width: 100%;
 }
 
 
