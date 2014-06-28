@@ -101,6 +101,25 @@ body {
 	3.0 Repeatable patterns
 	----------------------------------------------------------------------------
 */
+.btn {
+	border: none;
+}
+.btn-lg {
+	font-size: 1.1em;
+	padding: 0.8em 1.8em;
+}
+.btn-primary {
+	background-color: #df1995;
+}
+button.btn-primary:hover {
+	background-color: #9e007e;	/* Pantone 2415 C */
+}
+.btn-default {
+	background-color: #f2f0ee;	/* Pantone Warm Gray 1 C 33% */
+}
+button.btn-default:hover {
+	background: #d7d2cb;
+}
 
 .hover-animation {
 	-webkit-transition: 0.4s linear all;
@@ -164,7 +183,7 @@ h1 > #plus {
 #getting-hitched {
 	color: #00263a;
 	font-family: 'Allura', cursive;
-	font-size: 1.9em;
+	font-size: 2.2em;
 	font-weight: 400;
 	letter-spacing: 0em;
 	margin: 0px;
@@ -200,7 +219,8 @@ h1 > #plus {
 .carousel .slides .slide {
 	background-size: cover;
 	margin: 0px;
-	padding: 0px;
+	padding: 240px 0px 0px 0px;
+	text-align: center;
 }
 .flex-control-nav {
 	bottom: 0;
@@ -260,6 +280,9 @@ h1 > #plus {
 #honeymoon .cell-6 { background-image: url('/img/photos/img-7.jpg'); }
 #honeymoon .cell-7 { background-image: url('/img/photos/img-8.jpg'); }
 
+#hotel-venue-directions {
+	background: #000 url('/img/hotel-venue-map.jpg') no-repeat;
+}
 
 
 
