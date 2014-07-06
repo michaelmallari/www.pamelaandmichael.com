@@ -319,6 +319,7 @@ body > #footer {
 	border: none;
 }
 #google-form {
+	border: solid 1px #f90;
 	height: 400px;
 	width: 280px;
 }
