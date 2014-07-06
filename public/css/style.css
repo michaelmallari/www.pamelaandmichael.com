@@ -321,7 +321,7 @@ body > #footer {
 #google-form {
 	border: solid 1px #f90;
 	height: 400px;
-	width: 280px;
+	width: 100%;
 }
 
 
@@ -377,7 +377,6 @@ body > #footer {
 	}
 	#google-form {
 		height: 430px;
-		width: 578px;
 	}
 }
 
@@ -434,7 +433,6 @@ body > #footer {
 	}
 	#google-form {
 		height: 430px;
-		width: 578px;
 	}
 }
 
