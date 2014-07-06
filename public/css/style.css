@@ -226,7 +226,7 @@ h1 > #plus {
 }
 .flex-control-nav {
 	bottom: 0;
-	height: 100px;
+	height: 140px;
 	position: absolute;
 	z-index: 98;
 }
@@ -301,7 +301,7 @@ body > #footer {
 	bottom: 0;
 	color: #fff;
 	margin: 0px;
-	padding: 0px;
+	padding: 20px;
 	position: absolute;
 	width: 100%;
 	z-index: 99;
@@ -314,6 +314,13 @@ body > #footer {
 	line-height: 60px;
 	text-align: center;
 	text-transform: lowercase;
+}
+.modal-header {
+	border: none;
+}
+#google-form {
+	height: 460px;
+	width: 360px;
 }
 
 
@@ -364,7 +371,13 @@ body > #footer {
  * ----------------------------------------------------------------------------
  */
 @media (min-width: 768px) {
-
+	body > #footer #rsvp {
+		text-align: right;
+	}
+	#google-form {
+		height: 430px;
+		width: 578px;
+	}
 }
 
 
@@ -417,6 +430,10 @@ body > #footer {
 @media (min-width: 992px) {
 	body {
 		background-size: 100% auto;
+	}
+	#google-form {
+		height: 430px;
+		width: 578px;
 	}
 }
 
