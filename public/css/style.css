@@ -235,6 +235,8 @@ h1 > #plus {
 }
 .flex-control-paging li a {
 	background: #888b8d;
+	height: 5px;
+	width: 5px;
 }
 .flex-control-paging li a.flex-active,
 .flex-control-paging li a:hover {
@@ -306,15 +308,6 @@ body > #footer {
 	width: 100%;
 	z-index: 99;
 }
-#countdown {
-	font-family: 'Averia Serif Libre', serif;
-	font-size: 1.2em;
-	font-weight: 300;
-	height: 60px;
-	line-height: 60px;
-	text-align: center;
-	text-transform: lowercase;
-}
 .modal-header {
 	border: none;
 }
@@ -354,7 +347,9 @@ body > #footer {
  * ----------------------------------------------------------------------------
  */
 @media (max-width: 767px) {
-
+	#plus {
+		display: block;
+	}
 }
 
 
@@ -371,7 +366,11 @@ body > #footer {
  * ----------------------------------------------------------------------------
  */
 @media (min-width: 768px) {
-	body > #footer #rsvp {
+	.flex-control-paging li a {
+		height: 9px;
+		width: 9px;
+	}
+	body > #footer #countdown {
 		text-align: right;
 	}
 	#google-form {
