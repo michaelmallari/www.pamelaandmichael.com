@@ -126,7 +126,7 @@
 				<button class="btn btn-primary btn-lg fade-animation" data-toggle="modal" data-target="#myModal">RSVP</button>
 			</div>
 			<div id="countdown" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				Lorem ipsum
+				<div class="countdown styled"></div>
 			</div>
 		</footer>
 <!--/body > #footer -->
@@ -178,6 +178,7 @@
 		<script src="/js/jquery-ui-1.10.4.min.js"></script>
 		<script src="/js/bootstrap-3.1.1.min.js"></script>
 		<script src="/js/jquery.flexslider-2.2.0.min.js"></script>
+		<script src="/js/jquery.countdown.js"></script>
 		<script src="/js/app.js"></script>
 		<script>
 			function ResizeHeight() {
@@ -211,6 +212,31 @@
 					slideshow: false,
 					slideshowSpeed: 15000,
 					touch: true
+				});
+
+
+				var endDate = "September 15, 2014 17:00:00";
+
+
+				$('.countdown.simple').countdown({ date: endDate });
+				$('.countdown.styled').countdown({
+					date: endDate,
+					render: function(data) {
+						$(this.el).html( this.leadingZeros(data.days, 0) + " <span>days</span> " + this.leadingZeros(data.hours, 0) + " <span>hours</span> <span id='until'>until the celebration begins!</span>");
+					}
+				});
+
+
+				$('.countdown.callback').countdown({
+					date: +(new Date) + 10000,
+					render: function(data) {
+						$(this.el).text(this.leadingZeros(data.sec, 2) + " sec");
+					},
+					onEnd: function() {
+						$(this.el).addClass('ended');
+					}
+				}).on("click", function() {
+					$(this).removeClass('ended').data('countdown').update(+(new Date) + 10000).start();
 				});
 			});
 
