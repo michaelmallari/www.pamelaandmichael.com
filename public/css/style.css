@@ -215,6 +215,12 @@ h1 > #plus {
  #content {
 
  }
+ .overlay-container {
+ 	background: url('/img/ffffff-80.png');
+ 	margin: 0px auto;
+ 	padding: 2em;
+ 	width: 60%;
+ }
 .carousel {
 	height: 100% !important;
 }
