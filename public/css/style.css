@@ -275,7 +275,10 @@ h1 > #plus {
 }
 
 #welcome { }
-
+#welcome p.coming-soon {
+	font-size: 3em;
+	font-weight: 100;
+}
 #honeymoon .cell-1 { background-image: url('/img/photos/img-1.jpg'); }
 #honeymoon .cell-2 { background-image: url('/img/photos/img-5.jpg'); }
 #honeymoon .cell-3 { background-image: url('/img/photos/img-2.jpg'); }
